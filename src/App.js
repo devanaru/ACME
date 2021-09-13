@@ -1,4 +1,4 @@
-import './App.css';
+import classes from "./App.css";
 
 function App() {
   return (
