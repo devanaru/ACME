@@ -10,7 +10,7 @@ function Navigation(){
                       <h3>LOGO</h3>
                     </div>
                     <li>
-                     <Link to='/'>Home</Link>
+                     <Link to='/acme'>Home</Link>
                     </li>
                     <li>
                      <Link to='/About'>About Us</Link>
