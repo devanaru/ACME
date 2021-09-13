@@ -1,9 +1,13 @@
- 
+import classes from "../modules/Updates.module.css";
+import Footer from "../ui/Footer";
 
 function Updates(){
      return (
-        <div>
-        <p>Welcome to Updates</p>
+        <div className={classes.where}>
+         <p>Updates</p>
+         <div className={classes.locate}> 
+           <Footer />
+          </div>
         </div>
      )
 }

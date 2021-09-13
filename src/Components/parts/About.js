@@ -1,10 +1,14 @@
-
+import Footer from "../ui/Footer";
+import classes from "../modules/About.module.css";
 function About(){
      return (
-        <div>
-        <p>Welcome to About</p>
+        <div className={classes.where}>
+         <p>ALL ABOUT US</p>
+         <div className={classes.locate}> 
+             <Footer />
+          </div>
         </div>
-     )
+     );
 }
 
 export default About;
