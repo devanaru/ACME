@@ -9,7 +9,7 @@ function App() {
   return (
     <div >
        <Navigation />
-         <Route path='/acme' exact>
+         <Route path='/' exact>
             <Home /> 
          </Route>
          <Route path='/About' >
