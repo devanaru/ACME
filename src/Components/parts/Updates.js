@@ -1,4 +1,4 @@
-import classes from '../modules/Updates.module.css';
+ 
 
 function Updates(){
      return (

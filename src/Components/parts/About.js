@@ -1,4 +1,3 @@
-import classes from '../modules/About.module.css';
 
 function About(){
      return (
