@@ -7,7 +7,7 @@ function Navigation(){
                 <ul>
             
                     <div className={classes.logo}>
-                      <h3>LOGO</h3>
+                      <h3>ACME</h3>
                     </div>
                     <li>
                      <Link to='/'>Home</Link>
