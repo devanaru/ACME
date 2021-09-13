@@ -1,0 +1,76 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .subs{
+     font-family:serif;
+     color: rgb(250, 250, 123);
+     font-size: 32px;
+     margin-left: 80px;
+ }
+ 
+ .bouncemainheading{
+     display: flex;
+     font-size:5rem;
+     padding: 16px;
+     font-family:fantasy;
+     margin-top: -30px;
+ }
+ 
+ .subs p{
+     font-size: 1.5rem;
+     width: 480px;
+     color: rgb(255, 255, 255);
+ }
+ @keyframes jas{
+     0%{
+         transform:scaleX(1) scaleY(1);
+     }
+     25%{
+         transform:scaleX(1.2) scaleY(0.8);
+     }
+     40%{
+         transform:scaleX(0.8) scaleY(1.2);
+     }
+     50%{
+         transform:scaleX(1.15) scaleY(0.85);
+     }
+     60%{
+         transform:scaleX(0.9) scaleY(1.1);
+     }
+     75%{
+         transform:scaleX(1.1) scaleY(0.9);
+     }
+     100%{
+         transform:scaleX(1) scaleY(1);
+     }
+ }
+ 
+ .bounce:hover{
+     color: #ffee32;
+     -webkit-text-stroke: 0.1vw #ffee32;
+     -webkit-tap-highlight-color: #ffee32;
+     overflow: hidden;
+     color: #ffee32; 
+     cursor: pointer;
+     animation: jas 0.8s linear 1; 
+      
+   }
+ 
+ .footer{
+     background-color: rgb(100, 94, 94);
+     margin-top: 380px;
+     height: 108px;
+     margin-left: -78px;
+ }
+ 
+ .footer p{
+     padding-top: 24px;
+     font-size: 22px;
+ }
+ 
+ .card{
+     width: 100%;
+     align-items: baseline;
+     display: flex;
+ }

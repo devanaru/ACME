@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(17, 10, 10, 0.699);
+    color: white;
+}
+
+.foot{
+    background-color: #141414;
+    margin-top: 10%;
+    height: 110px;
+    margin-left: -79px;
+    padding: 10px;
+     
+}
+
+.foot p{
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+.socialicon{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 77%;
+    margin-top: -60px;
+    cursor: pointer;
+    align-items: baseline;
+    margin-right: 80px;
+}
+
+.socialicondiff{
+    margin-left: 30px;
+}
